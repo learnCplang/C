@@ -1,13 +1,9 @@
 #include "my_work.h"
-	#include "add.h"
+#include "add.h"
+
+int add(int a,b);
+void doSomethin();
 	
-		int add(int a, b){
-		return a+b;
-	}
-	void doSomething(){
-		add(1,2);
-	}
-	
-	int main(void){
-		doSomething();
-	}
+int main(void){
+	doSomething();
+}
